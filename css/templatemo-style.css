@@ -18,14 +18,14 @@ a:focus {
 /* Header & Nav */
 body { overflow-x: hidden; }
 .tm-header {
-	background: rgb(247, 255, 251);
-	height: 80px;
+	background: rgba(247, 255, 251, 1);
+	height:70px;
 	position: relative;
 	z-index: 100;
 }
 .tm-site-name-container { padding-top: 20px; }
 .tm-site-name {
-	color: rgb(234, 150, 32);
+	color: rgb(86, 255, 71);
 	font-size: 27px;
 	font-weight: 600;
 	text-shadow: #1a1a1a;
@@ -47,14 +47,14 @@ body { overflow-x: hidden; }
 .tm-nav li a {
 	color: #838383;
 	display: block;
-	padding: 45px 34px 15px 34px;
+	padding: 27px 34px 23px 34px;
 	text-transform: uppercase;
 	transition: all 0.3s ease;
 }
 .tm-nav li a.active,
-.tm-nav li a:focus,
-.tm-nav li a:hover {
-	background: #FCDD44;
+.tm-nav li a:focus{
+	background: rgb(188, 212, 214);
+	border-radius: 2px;
 	color: #000;
 }
 
